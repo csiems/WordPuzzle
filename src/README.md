@@ -15,10 +15,6 @@ This is a website that uses a method to replace vowels in a string with the dash
 * Run: `gradle run` in program directory.
 * Open `localhost:4567` in web browser.
 
-## Known Bugs
-
-This app uses a get command that gives away the secret phrase in the URL. I'm desperately trying to figure out how to use a Post command to hide the secret phrase.
-
 ## Support and contact details
 
 Christopher Siems can be reached at: csiems [at] gmail.
