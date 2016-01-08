@@ -1,4 +1,4 @@
-# _{Application Name}_
+# _Word Puzzle_
 
 #### _{Brief description of application}, {Date of current version}_
 
@@ -6,29 +6,28 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+This is a website that uses a method to replace vowels in a string with the dash symbol "-" to create a word puzzle to solve. The resulting word puzzle will be on a new page that does not show the original string so that another person can try and guess it.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* Clone this repository.
+* Install Gradle and Java
+* Run:
+  gradle run
+In program directory.
+* Open "localhost:4567" in web browser.
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+This app uses a get command that gives away the secret phrase in the URL. I'm desperately trying to figure out how to use a Post command to hide the secret phrase.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Christopher Siems can be reached at: csiems [at] gmail.
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+Java, Spark, JUnit, Velocity, Bootstrap, FluentLenium
 
 ### License
 

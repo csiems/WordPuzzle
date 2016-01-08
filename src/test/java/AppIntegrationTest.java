@@ -18,17 +18,13 @@ public class AppIntegrationTest extends FluentTest {
   @Test
   public void rootTest() {
     goTo("http://localhost:4567/");
-    assertThat(pageSource()).contains("The Coin Machine");
-    //Tests that title of page displays (i.e. that page is loading.)
+    assertThat(pageSource()).contains("Word Puzzle! Go!");
   }
 
-  @Test public void testNameHere() {
+  @Test public void outputHelloWorldTest() {
     goTo("http://localhost:4567/");
-    fill("#userInput").with("41");
+    fill("#userInput").with("Hello World");
     submit("#submit");
-    assertThat(pageSource()).contains("1 penny");
-    //Tests that if userInput field is filled with 41, the result contains
-    //"1 penny".
+    assertThat(pageSource()).contains("H-ll- W-rld");
   }
-
 }

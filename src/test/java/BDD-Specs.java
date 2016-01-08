@@ -11,14 +11,14 @@
 // 2. Behavior: Replaces all vowels "aeiou" with "-"
 // Input: aeiou
 // Output: -----
-// 
+//
 // 3. Behavior: Replaces all capital vowels with "-"
 // Input: AEIOU
 // Output: -----
 //
 // 3. Behavior: Takes a string with vowels and consonants and replaces vowels with "-"'s
-// Input: The quick brown fox jumped over the lazy dog
-// Output: "Th- qu-ck br-wn f-x j-mp-d -v-r th- l-zy d-g"
+// Input: Cat
+// Output: "C-t"
 
 // 4. Spark website loads when program is run.
 //
