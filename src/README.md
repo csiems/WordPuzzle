@@ -13,9 +13,9 @@ This is a website that uses a method to replace vowels in a string with the dash
 * Clone this repository.
 * Install Gradle and Java
 * Run:
-  gradle run
+  `gradle run`
 In program directory.
-* Open "localhost:4567" in web browser.
+* Open `localhost:4567` in web browser.
 
 ## Known Bugs
 
